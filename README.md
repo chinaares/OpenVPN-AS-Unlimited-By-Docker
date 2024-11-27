@@ -1,12 +1,14 @@
 # OpenVPN Access Server With Unlimited Licence
 ##### Server Requirement: **Centos 7 x86_64**
 
-### Installation
+### 安装
 
 ```sh
-$ cd /tmp/ && yum install git -y && git clone https://github.com/puarudz/OpenVPN-AS-Unlimited && cd OpenVPN-AS-Unlimited/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
+$ cd /tmp/ && yum install git -y && git clone https://github.com/hk59775634/OpenVPN-AS-Unlimited-By-Docker && cd OpenVPN-AS-Unlimited-By-Docker/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
 ```
 
-Video Tutorial by Nirob3x : https://www.youtube.com/watch?v=VjA5DuDaweo
+### Docker-compose 部署
 
-Clone This repo from [Nirob3x](https://github.com/Nirob3x/OpenVPN-As-Unlimited)
+```sh
+$ cd /opt/ && yum install git -y && git clone https://github.com/hk59775634/OpenVPN-AS-Unlimited-By-Docker && cd OpenVPN-AS-Unlimited-By-Docker/ && docker-compose up -d
+```
