@@ -10,5 +10,5 @@ $ cd /tmp/ && yum install git -y && git clone https://github.com/hk59775634/Open
 ### Docker-compose 部署
 
 ```sh
-$ cd /opt/ && yum install git -y && git clone https://github.com/hk59775634/OpenVPN-AS-Unlimited-By-Docker && cd OpenVPN-AS-Unlimited-By-Docker/ && docker-compose up -d
+$ cd /opt/ && git clone https://github.com/hk59775634/OpenVPN-AS-Unlimited-By-Docker && cd OpenVPN-AS-Unlimited-By-Docker/ && docker-compose up -d
 ```
