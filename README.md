@@ -12,3 +12,11 @@ $ cd /tmp/ && yum install git -y && git clone https://github.com/hk59775634/Open
 ```sh
 $ cd /opt/ && git clone https://github.com/hk59775634/OpenVPN-AS-Unlimited-By-Docker && cd OpenVPN-AS-Unlimited-By-Docker/ && docker-compose up -d
 ```
+
+安装完成后访问
+```sh
+https://ip:943/admin
+```
+
+username:openvpn
+password:openvpn
