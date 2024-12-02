@@ -18,5 +18,5 @@ $ cd /opt/ && git clone https://github.com/hk59775634/OpenVPN-AS-Unlimited-By-Do
 https://ip:943/admin
 ```
 
-username:openvpn
-password:openvpn
+# username:openvpn
+# password:openvpn
