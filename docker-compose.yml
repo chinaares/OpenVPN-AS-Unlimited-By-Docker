@@ -7,6 +7,7 @@ services:
     cap_add:
       - NET_ADMIN
     ports:
+      - 9443:9443
       - 943:943
       - 443:443
       - 1194:1194/udp
